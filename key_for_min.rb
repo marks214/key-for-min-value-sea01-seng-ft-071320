@@ -11,5 +11,6 @@ def key_for_min_value(name_hash)
       values.push(value, key)
     end
   end
+  #returns nil when hash is empty
     return values[-1]
 end
